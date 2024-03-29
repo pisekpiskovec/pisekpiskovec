@@ -7,13 +7,13 @@ namespace github_readme
 {
     public class AboutMe : AboutMe 
     {
-        string nickname = "Písek";
+        string nickname = "Písek Pískovec";
         string username = "pisekpiskovec";
-        string discord = @"Písek Pískovec#4237";
+        string discord = "pisekpiskovec";
         string youtube = "https://www.youtube.com/PísekPískovec";
-        string[] favourite_lang = {"C#", "JavaScript", "VB.net"};
-        string[] likes = {"coding", "playing", "drawing", "recording";
-        int age = 16;
+        string[] favourite_lang = {"C#", "JavaScript", "C++/Qt"};
+        string[] likes = {"coding", "playing", "drawing", "recording"};
+        int age = 18;
         
         tAddY = new System.Timers.Timer();
         tAddY.Interval = 31556951999;        

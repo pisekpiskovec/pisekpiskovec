@@ -34,3 +34,4 @@ namespace github_readme
 }
 ```
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=pisekpiskovec&layout=compact&langs_count=12&bg_color=0d1117&border_color=0d1117ff)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=pisekpiskovec&layout=compact&langs_count=12&bg_color=0d1117&border_color=0d1117ff)](https://github.com/anuraghazra/github-readme-stats)

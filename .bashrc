@@ -28,10 +28,9 @@ fi
 unset rc
 
 alias dnf='sudo dnf'
-alias rizz='git'
-alias eix="exit"
 alias q="exit"
-alias nfch="fastfetch"
+[[ -f /usr/bin/fastfetch ]] && alias neofetch="fastfetch"
+[[ -f /usr/bin/fastfetch ]] && alias nfch="fastfetch"
 alias din="dnf in"
 alias dinf="dnf in -y"
 alias drm="dnf rm"
@@ -41,18 +40,13 @@ alias dri="dnf reinstall"
 alias drif="dnf reinstall -y"
 alias dup="dnf up"
 alias dupf="dnf up -y"
-alias helix="hx"
-alias cat="bat"
-alias yz="yazi"
-alias cd="z"
+[[ -f /usr/bin/bat ]] && alias cat="bat"
+[[ -f /usr/bin/yazi ]] && alias yz="yazi"
+[[ -f /usr/bin/zoxide ]] && alias cd="z"
 
 function mkcddir() {
 	mkdir -p $1
 	cd $1
-}
-
-function push() {
-	eval "$1+=($2)"
 }
 
 # Ensure Helix is set as EDITOR if it isn't already set

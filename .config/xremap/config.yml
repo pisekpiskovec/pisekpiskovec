@@ -1,0 +1,7 @@
+modmap:
+  - name: Helix configuration
+    application:
+      only: org.gnome.Ptyxis
+    remap:
+      CapsLock: Esc
+      Esc: CapsLock

@@ -10,15 +10,18 @@ auto-pairs = true
 bufferline = "multiple"
 true-color = true
 auto-completion = true
+middle-click-paste = false
+line-number = "relative"
 
-[editor.auto-save]
-after-delay.enable = true
-after-delay.timeout = 120000
+[editor.auto-save.after-delay]
+enable = true
+timeout = 120000
 
 [keys.normal]
 "A-," = "goto_previous_buffer"
 "A-." = "goto_next_buffer"
 "A-w" = ":buffer-close"
+"A-W" = ":buffer-close!"
 "A-/" = "repeat_last_motion"
 "A-h" = "jump_view_left"
 "A-j" = "jump_view_down"
@@ -29,18 +32,22 @@ after-delay.timeout = 120000
 "H" = "goto_line_start"
 "L" = "goto_line_end"
 "X" = "select_line_above"
+"A-F" = ":format"
 
 [keys.insert]
-"A-p" = [":insert-output echo *", "collapse_selection", "move_char_right"]
+"A-p" = [":insert-output echo \"*\"", "collapse_selection", "move_char_right"]
 "A-," = "goto_previous_buffer"
 "A-." = "goto_next_buffer"
 "A-w" = ":buffer-close"
+"A-W" = ":buffer-close!"
+"A-/" = "repeat_last_motion"
 "A-h" = "jump_view_left"
 "A-j" = "jump_view_down"
 "A-k" = "jump_view_up"
 "A-l" = "jump_view_right"
 "A-t" = [":n", "insert_mode"]
 "A-T" = ":n"
+"A-F" = ":format"
 
 [keys.select]
 "H" = "goto_line_start"
@@ -48,10 +55,12 @@ after-delay.timeout = 120000
 "A-," = "goto_previous_buffer"
 "A-." = "goto_next_buffer"
 "A-w" = ":buffer-close"
+"A-W" = ":buffer-close!"
+"A-/" = "repeat_last_motion"
 "A-h" = "jump_view_left"
 "A-j" = "jump_view_down"
 "A-k" = "jump_view_up"
 "A-l" = "jump_view_right"
-"A-T" = [":n", "insert_mode"]
-"A-t" = ":n"
+"A-t" = [":n", "insert_mode"]
+"A-T" = ":n"
 "X" = "select_line_above"

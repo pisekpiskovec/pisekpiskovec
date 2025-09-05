@@ -1,0 +1,21 @@
+[window]
+dynamic_padding = true
+dynamic_title = true
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+
+[keyboard]
+bindings = [
+  { key = "F11", action = "ToggleFullscreen" },
+]
+
+[mouse]
+bindings = [
+  { mouse = "Middle", action = "None" }
+]
+
+[font]
+builtin_box_drawing = true
+normal = { family = "NotoMono Nerd Font", style = "Regular" }
+size = 12

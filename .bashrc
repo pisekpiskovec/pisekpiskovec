@@ -55,3 +55,4 @@ if [ -z "$EDITOR" ]; then
 fi
 
 eval "$(zoxide init bash)"
+eval "$(oh-my-posh init bash --config /home/pisek/.config/ohmyposh/bsh.json)"

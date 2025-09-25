@@ -1,4 +1,4 @@
-[manager]
+[mgr]
 prepend_keymap = [
   # New keymaps
   { on = "<A-w>", run = "tab_close", desc = "Close the current tab" },
